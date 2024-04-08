@@ -33,6 +33,8 @@ Este projeto implementa a multiplicação de matrizes em diferentes cenários e 
 
 O projeto utiliza CMake para configuração e compilação. Certifique-se de ter o CMake instalado em seu sistema. Para compilar, siga estes passos:
 
+Observação: o arquivo build não pode ser anexado por completo ao github devido seu tamnho ultrapassar o limide definido pela plataforma
+
 1. Crie um diretório de compilação: `mkdir build && cd build`
 2. Configure o build com CMake: `cmake ..`
 3. Compile o projeto: `cmake --build .`
