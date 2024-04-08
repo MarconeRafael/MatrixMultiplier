@@ -1,0 +1,8 @@
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/rebuild_cache.dir
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/edit_cache.dir
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/run_all.dir
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/parallel_processes.dir
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/parallel_threads.dir
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/etapa2.dir
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/sequential.dir
+/home/marcone/SO/MatrixMultiplier/build/CMakeFiles/auxiliar.dir

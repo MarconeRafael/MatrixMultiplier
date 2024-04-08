@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/parallel_threads.dir/src/parallel_threads.cpp.o -o bin/parallel_threads  -lpthread 

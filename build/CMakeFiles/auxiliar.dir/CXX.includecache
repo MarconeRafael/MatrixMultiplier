@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcone/SO/MatrixMultiplier/src/auxiliar.cpp
+iostream
+-
+fstream
+-
+vector
+-
+cstdlib
+-
+ctime
+-
+

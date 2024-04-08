@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/auxiliar.dir/src/auxiliar.cpp.o -o bin/auxiliar 

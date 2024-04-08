@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/matrix_operations.h
+vector
+-
+
+/home/marcone/SO/MatrixMultiplier/src/etapa2.cpp
+iostream
+-
+fstream
+-
+vector
+-
+chrono
+-
+cstdlib
+-
+matrix_operations.h
+/home/marcone/SO/MatrixMultiplier/src/matrix_operations.h
+

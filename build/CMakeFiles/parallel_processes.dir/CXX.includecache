@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marcone/SO/MatrixMultiplier/src/parallel_processes.cpp
+iostream
+-
+fstream
+-
+vector
+-
+chrono
+-
+unistd.h
+-
+sys/wait.h
+-
+

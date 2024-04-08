@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/etapa2.dir/src/etapa2.cpp.o -o bin/etapa2 
