@@ -4,6 +4,7 @@
 #include <chrono>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <iomanip> // Para definir a precisão de saída
 
 using namespace std;
 using namespace std::chrono;
@@ -143,12 +144,13 @@ int main(int argc, char* argv[]) {
     auto stopTotal = high_resolution_clock::now();
     auto durationTotal = duration_cast<milliseconds>(stopTotal - startTotal);
 
-    // Imprimir os tempos de execução dos processos
-    cout << "Tempo total de execução (milissegundos): " << durationTotal.count() << endl;
-    cout << "Tempos de execução dos processos (milissegundos):" << endl;
-    for (int i = 0; i < P; ++i) {
-        cout << "Processo " << i << ": " << processTimes[i].count() << endl;
-    }
+    // Imprimir os tempos de execução dos processos com 4 casas decimais
+    // cout << "Tempo total de execução (milissegundos): " << durationTotal.count() << endl;
+    // cout << "Tempos de execução dos processos (milissegundos):" << endl;
+    // cout << fixed << setprecision(4); // Definir a precisão para 4 casas decimais
+    // for (int i = 0; i < P; ++i) {
+    //     cout << "Processo " << i << ": " << processTimes[i].count() << endl;
+    // }
 
     cout << endl;
     cout << "Multiplicação de matrizes concluída com sucesso." << endl;
