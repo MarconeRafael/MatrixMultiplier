@@ -8,12 +8,9 @@ Este projeto implementa a multiplicação de matrizes em diferentes cenários e 
 - `include`: Cabeçalhos necessários.
 - `src`: Códigos-fonte dos programas.
 - `tests`: Testes e dados de entrada.
-<<<<<<< HEAD
-.
-=======
 
 
->>>>>>> 0c3c595c28ba9a68d833596e3fd28846cf15b5fa
+
 
 
 ├── author.md                      
